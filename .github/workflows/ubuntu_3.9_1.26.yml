@@ -25,6 +25,9 @@ jobs:
         python-version: "3.9"
     - name: Install numpy
       run: |
+        #Force gfortran reinstallation in Ubuntu
+        sudo apt-get update
+        sudo apt-get install -y gfortran
         python -m pip install --upgrade pip
         pip install numpy==1.26
     - name: See setup
