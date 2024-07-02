@@ -1,4 +1,4 @@
-name: Test Clawpack on Ubuntu 22.04 Python 3.9 Numpy 1.24
+name: Test Editable Clawpack on Ubuntu 22.04 Python 3.9 Numpy 1.24
 
 on:
   push:

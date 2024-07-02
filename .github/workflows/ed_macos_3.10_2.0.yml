@@ -1,4 +1,4 @@
-name: Test Clawpack on MacOS 14 Python 3.10 Numpy 2.0
+name: Test Editable Clawpack on MacOS 14 Python 3.10 Numpy 2.0
 
 on:
   push:
