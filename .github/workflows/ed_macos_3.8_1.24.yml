@@ -25,7 +25,7 @@ jobs:
         python-version: "3.8"
 
      - name: Install dependencies
-      run: |
+       run: |
         brew update
         brew reinstall gfortran 
         python -m pip install --upgrade pip
